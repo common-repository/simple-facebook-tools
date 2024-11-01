@@ -1,0 +1,41 @@
+.main-area {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    margin: 0 0 0 200px;
+}
+.main-area ul.tabs {
+    background: #f4f4f4;
+    float: left;
+    margin: 0 0 0 -200px;
+    width: 200px;
+    overflow: hidden;
+}
+.main-area ul.tabs li {
+    margin: 0;
+}
+.main-area ul.tabs li a {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+.main-area ul.tabs li:first-child a {
+    border-top: 1px solid #ccc;
+}
+.main-area ul.tabs li.ui-tabs-active a {
+    background: #fff;
+    border-right: 0;
+}
+.main-area .all-tab-content {
+    float: left;
+    background: #fff;
+    padding: 20px 0;
+    min-height: 200px;
+    width: 100%;
+}
+.main-area .tab-content {
+    margin: 0 20px;
+}
